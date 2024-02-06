@@ -15,14 +15,14 @@
 
         </div>
 
-        <form onsubmit="onsubmit=resgister(event)" id="register-form">
+        <form onsubmit="resgister(event)" id="register-form">
             <label for="register-email"></label>
-            <input type="email" id="register-email" placeholder="demo@gmail.com" required>
+            <input type="email" id="register-email" value="demo@gmail.com" required>
             <label for="register-password">Paswword</label>
-            <input type="password" id="register-password" placeholder="password" required pattern=".{6,}">
+            <input type="password" id="register-password" value="password" required pattern=".{6,}">
 
             <label for="register-username">Username</label>
-            <input type="text" id="register-username" placeholder="User" required>
+            <input type="text" id="register-username" value="User" required>
 
             <br/>
             <input type="submit" value="Sign UP">
